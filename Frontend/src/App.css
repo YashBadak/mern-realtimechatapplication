@@ -1,0 +1,13 @@
+/* Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+}
