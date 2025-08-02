@@ -8,7 +8,6 @@ import { chatState } from '../../context/ChatProvider';
 import ProfileModel from './ProfileModel';
 import { useNavigate } from 'react-router';
 import ChatLoading from '../userAvatar.jsx/ChatLoading';
-import NotificationBadge, { Effect } from 'react-notification-badge';
 import axios from 'axios';
 import UserListItem from '../userAvatar.jsx/UserListItem';
 import { getSender } from '../../config/chatLogic';
